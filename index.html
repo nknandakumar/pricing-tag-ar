@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airtel Pricing Tags</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .pricing-container {
+      display: flex;
+      
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .pricing-card {
+      background-color: #cfc9c9;
+      border-radius: 8px;
+      padding: 20px;
+      width: 300px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .pricing-card h2 {
+      color: #0072c6;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+
+    .pricing-card p {
+      color: #444;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Add media queries for responsiveness */
+    @media screen and (max-width: 768px) {
+    
+      .pricing-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="pricing-container">
+    <div class="pricing-card">
+      <h2>Plan 1</h2>
+      <p>Price: $19.99/month</p>
+      <p>Features: X, Y, Z</p>
+    </div>
+    <div class="pricing-card">
+      <h2>Plan 2</h2>
+      <p>Price: $29.99/month</p>
+      <p>Features: A, B, C</p>
+    </div>
+    <div class="pricing-card">
+      <h2>Plan 3</h2>
+      <p>Price: $39.99/month</p>
+      <p>Features: P, Q, R</p>
+    </div>
+    <div class="pricing-card">
+      <h2>Plan 4</h2>
+      <p>Price: $49.99/month</p>
+      <p>Features: M, N, O</p>
+    </div>
+    <div class="pricing-card">
+      <h2>Plan 5</h2>
+      <p>Price: $59.99/month</p>
+      <p>Features: D, E, F</p>
+    </div>
+  </div>
+</body>
+</html>
